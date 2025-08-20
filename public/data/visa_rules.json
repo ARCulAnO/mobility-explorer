@@ -1,92 +1,91 @@
 {
-  "Portugal": {
-    "region": "Europe",
+  "Spain": {
     "visas": [
       {
-        "code": "D8",
-        "label": "Digital Nomad (D8)",
+        "label": "Digital Nomad (demo)",
         "categories": ["digital_nomad", "remote_worker"],
-        "min_income_usd": 36000,
-        "notes": "Remote income; ~3x min wage monthly."
+        "min_age": 18,
+        "min_income_usd": 30000,
+        "notes": "Remote income allowed. Demo thresholds only."
       },
       {
-        "code": "D7",
-        "label": "Passive Income / Retiree (D7)",
-        "categories": ["retiree"],
-        "min_income_usd": 15000,
-        "notes": "Pension/passive income accepted."
+        "label": "Non-Lucrative / Long-Stay (demo)",
+        "categories": ["retiree", "second_home"],
+        "min_age": 18,
+        "min_income_usd": 32000,
+        "notes": "No local work. Demo values for prototype."
       }
     ]
   },
-  "Spain": {
-    "region": "Europe",
+  "Portugal": {
     "visas": [
       {
-        "code": "DNV",
-        "label": "Digital Nomad Visa",
-        "categories": ["digital_nomad", "remote_worker"],
-        "min_income_usd": 30000,
-        "notes": "Remote income; approximate threshold."
+        "label": "D7 Passive Income (demo)",
+        "categories": ["retiree", "second_home", "remote_worker"],
+        "min_age": 18,
+        "min_income_usd": 18000,
+        "notes": "Steady passive/remote income. Demo amounts."
       },
       {
-        "code": "NLV",
-        "label": "Non-Lucrative (retiree style)",
-        "categories": ["retiree"],
-        "min_income_usd": 28000,
-        "notes": "Savings/income threshold, no work."
+        "label": "Digital Nomad (demo)",
+        "categories": ["digital_nomad", "remote_worker"],
+        "min_age": 18,
+        "min_income_usd": 30000,
+        "notes": "High remote income requirement (demo)."
       }
     ]
   },
   "Thailand": {
-    "region": "SE Asia",
     "visas": [
       {
-        "code": "O-A",
-        "label": "Retirement (O-A)",
+        "label": "Retirement O/A (demo)",
         "categories": ["retiree"],
         "min_age": 50,
         "min_income_usd": 24000,
-        "notes": "50+ age; income/savings requirement."
+        "notes": "Age 50+. Demo threshold."
       },
       {
-        "code": "LTR-Pensioner",
-        "label": "LTR Wealthy Pensioner",
-        "categories": ["retiree"],
-        "min_age": 50,
+        "label": "LTR / Remote Pro (demo)",
+        "categories": ["digital_nomad", "remote_worker"],
+        "min_age": 18,
         "min_income_usd": 80000,
-        "notes": "Higher income/assets track."
-      }
-    ]
-  },
-  "Indonesia": {
-    "region": "SE Asia",
-    "visas": [
-      {
-        "code": "Retirement KITAS",
-        "label": "Retirement KITAS",
-        "categories": ["retiree"],
-        "min_age": 55,
-        "min_income_usd": 18000,
-        "notes": "55+ age; income & insurance."
-      },
-      {
-        "code": "Second Home",
-        "label": "Second Home Visa",
-        "categories": ["second_home"],
-        "min_income_usd": 130000,
-        "notes": "High capital/deposit requirement."
+        "notes": "Target high earners. Demo figure."
       }
     ]
   },
   "Vietnam": {
-    "region": "SE Asia",
     "visas": [
       {
-        "code": "Investor/Work",
-        "label": "Investor / Work TRC route",
-        "categories": ["investor", "remote_worker"],
-        "min_income_usd": 0,
-        "notes": "No official DN/retiree; other long-stay routes."
+        "label": "Investor / Long-Stay (demo)",
+        "categories": ["second_home", "investor"],
+        "min_age": 18,
+        "min_income_usd": 20000,
+        "notes": "Investor pathways vary. Demo only."
+      },
+      {
+        "label": "Remote Stay (demo)",
+        "categories": ["digital_nomad", "remote_worker"],
+        "min_age": 18,
+        "min_income_usd": 24000,
+        "notes": "Demo placeholder for remote stay."
+      }
+    ]
+  },
+  "Indonesia": {
+    "visas": [
+      {
+        "label": "Second Home (demo)",
+        "categories": ["second_home", "retiree"],
+        "min_age": 18,
+        "min_income_usd": 35000,
+        "notes": "Proof of funds/property. Demo values."
+      },
+      {
+        "label": "Remote Worker (demo)",
+        "categories": ["digital_nomad", "remote_worker"],
+        "min_age": 18,
+        "min_income_usd": 25000,
+        "notes": "Demo numbers for prototype."
       }
     ]
   }

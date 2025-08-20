@@ -15,7 +15,10 @@ export default function WorldMap() {
       <Map
         {...viewState}
         onMove={(evt) => setViewState(evt.viewState)}
-        mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
+        mapboxAccessToken={
+          process.env.NEXT_PUBLIC_MAPBOX_TOKEN ||
+          "pk.eyJ1IjoiYXJjdWxhbm8iLCJhIjoiY21lazZxdG9yMDMybDJ2c2NrOHU3MzhiaiJ9.01uKfi4lH1rwNEXjypDtXQ"
+        }
         mapStyle="mapbox://styles/mapbox/light-v11"
       >
         <NavigationControl position="bottom-right" />
@@ -23,4 +26,3 @@ export default function WorldMap() {
     </div>
   );
 }
-
