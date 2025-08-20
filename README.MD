@@ -1,2 +1,0 @@
-# Mobility Explorer
-First commit.

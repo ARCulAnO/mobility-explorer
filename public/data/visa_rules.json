@@ -1,0 +1,93 @@
+{
+  "Portugal": {
+    "region": "Europe",
+    "visas": [
+      {
+        "code": "D8",
+        "label": "Digital Nomad (D8)",
+        "categories": ["digital_nomad", "remote_worker"],
+        "min_income_usd": 36000,
+        "notes": "Remote income; ~3x min wage monthly."
+      },
+      {
+        "code": "D7",
+        "label": "Passive Income / Retiree (D7)",
+        "categories": ["retiree"],
+        "min_income_usd": 15000,
+        "notes": "Pension/passive income accepted."
+      }
+    ]
+  },
+  "Spain": {
+    "region": "Europe",
+    "visas": [
+      {
+        "code": "DNV",
+        "label": "Digital Nomad Visa",
+        "categories": ["digital_nomad", "remote_worker"],
+        "min_income_usd": 30000,
+        "notes": "Remote income; approximate threshold."
+      },
+      {
+        "code": "NLV",
+        "label": "Non-Lucrative (retiree style)",
+        "categories": ["retiree"],
+        "min_income_usd": 28000,
+        "notes": "Savings/income threshold, no work."
+      }
+    ]
+  },
+  "Thailand": {
+    "region": "SE Asia",
+    "visas": [
+      {
+        "code": "O-A",
+        "label": "Retirement (O-A)",
+        "categories": ["retiree"],
+        "min_age": 50,
+        "min_income_usd": 24000,
+        "notes": "50+ age; income/savings requirement."
+      },
+      {
+        "code": "LTR-Pensioner",
+        "label": "LTR Wealthy Pensioner",
+        "categories": ["retiree"],
+        "min_age": 50,
+        "min_income_usd": 80000,
+        "notes": "Higher income/assets track."
+      }
+    ]
+  },
+  "Indonesia": {
+    "region": "SE Asia",
+    "visas": [
+      {
+        "code": "Retirement KITAS",
+        "label": "Retirement KITAS",
+        "categories": ["retiree"],
+        "min_age": 55,
+        "min_income_usd": 18000,
+        "notes": "55+ age; income & insurance."
+      },
+      {
+        "code": "Second Home",
+        "label": "Second Home Visa",
+        "categories": ["second_home"],
+        "min_income_usd": 130000,
+        "notes": "High capital/deposit requirement."
+      }
+    ]
+  },
+  "Vietnam": {
+    "region": "SE Asia",
+    "visas": [
+      {
+        "code": "Investor/Work",
+        "label": "Investor / Work TRC route",
+        "categories": ["investor", "remote_worker"],
+        "min_income_usd": 0,
+        "notes": "No official DN/retiree; other long-stay routes."
+      }
+    ]
+  }
+}
